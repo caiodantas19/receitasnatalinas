@@ -1,0 +1,242 @@
+/* Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #0066cc;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+header .header-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+header .header-content p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+header .cta-button {
+  background-color: #ff9900;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+header .cta-button:hover {
+  background-color: #ff7f00;
+}
+
+/* Seções */
+section {
+  padding: 50px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+/* Seção de Apresentação */
+.intro {
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 15px;
+    margin: 0 auto;
+    width: 100%; /* Garante que o conteúdo ocupe toda a largura da tela */
+    max-width: 1200px; /* Limita a largura máxima */
+}
+#intro h2 {
+  margin-bottom: 20px; /* Certifica-se de que o título tenha espaço adequado abaixo */
+  font-size: 2.5rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.intro .item {
+  flex: 1;
+  padding: 20px;
+}
+
+.intro .item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.intro .item p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+/* Prova Social */
+.social-proof {
+  background-color: #eeeeee;
+  padding: 50px 20px;
+}
+
+.social-proof .feedback {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-proof .feedback img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.social-proof .feedback .text h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.social-proof .feedback .text p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Vídeo Promo */
+.promo-video {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.promo-video .video-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.promo-video video {
+  width: 100%;
+  height: auto;
+}
+
+/* Benefícios */
+.benefits {
+  background-color: #f9f9f9;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  text-align: center;
+}
+
+.benefits-list .benefit {
+  flex: 1;
+}
+
+.benefits-list .benefit h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.benefits-list .benefit p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.benefits-list .benefit span {
+  font-size: 2rem;
+  color: #33cc33;
+  margin-bottom: 15px;
+}
+
+/* Chamada para Ação */
+.purchase {
+  text-align: center;
+  background-color: #0066cc;
+  color: white;
+  padding: 50px 20px;
+}
+
+.purchase h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.purchase .cta-button {
+  background-color: #ff9900;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.purchase .cta-button:hover {
+  background-color: #ff7f00;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Estilo do selo de garantia */
+.guarantee-seal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #16a085; /* Cor de fundo agradável, pode ser ajustada */
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  max-width: 300px;
+  margin: 30px auto;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.guarantee-seal .material-icons {
+  font-size: 1.8rem;
+  margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.guarantee-seal p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
